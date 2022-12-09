@@ -45,7 +45,13 @@ const HomePage = () => {
           {" "}
           {/* <!-----headline-feature-product--> */}
           <span id="p4">Bán chạy nhất</span>
-          <Button variant="outline-light" className="view ms-auto">
+          <Button
+            onClick={() => {
+              navigate("/menu");
+            }}
+            variant="outline-light"
+            className="view ms-auto"
+          >
             Xem thực đơn
             <FaLongArrowAltRight className="me-2 ms-2" />
           </Button>{" "}
